@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[清风朗月]]></title><description><![CDATA[YM's Blog]]></description><link>https://imamiao.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 Apr 2022 09:05:07 GMT</lastBuildDate><item><title><![CDATA[荷塘月色]]></title><description><![CDATA[这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。]]></description><link>https://imamiao.github.io/foo/bar/he-tang-yue-se/</link><guid isPermaLink="false">https://imamiao.github.io/foo/bar/he-tang-yue-se/</guid><pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[清风朗月]]></title><description><![CDATA[YM's Blog]]></description><link>https://imamiao.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 25 Apr 2022 10:08:06 GMT</lastBuildDate><item><title><![CDATA[用人话说说DXF格式]]></title><description><![CDATA[DWG和DXF是AutoCAD最常用的两种数据保存格式，DWG是AutoCAD的私有格式，DXF是Autodesk公司开发的用于AutoCAD与其它软件之间进行CAD数据交换的CAD数据文件格式。DXF天生就是面向第三方开发者的，公开的文件格式，开发者想实现自动化绘图，从DXF入手无疑是最好的选择。]]></description><link>https://imamiao.github.io/foo/bar/dxf-describe/</link><guid isPermaLink="false">https://imamiao.github.io/foo/bar/dxf-describe/</guid><pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;什么是dxf&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BB%80%E4%B9%88%E6%98%AFdxf&quot; aria-label=&quot;什么是dxf permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;什么是DXF&lt;/h3&gt;
+&lt;p&gt;DXF是AutoCAD(Drawing Interchange Format或者Drawing Exchange Format) 绘图交换文件。DXF 是Autodesk（欧特克）公司开发的用于AutoCAD与其它软件之间进行CAD数据交换的CAD数据文件格式。   &lt;/p&gt;
+&lt;p&gt;说人话：&lt;strong&gt;DXF是一个专门开放给第三方开发者图形数据格式。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;为什么是dxf&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFdxf&quot; aria-label=&quot;为什么是dxf permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;为什么是DXF&lt;/h3&gt;
+&lt;p&gt;AutoCAD——画图用的，我们都熟悉，常见的保存格式是.dwg，但是DWG是AutoCAD的私有格式，格式细节没有公开，第三方开发者很难下手。&lt;br&gt;
+DXF是Autodesk专门开放给第三方开发者的文件格式，也是受到AutoCAD直接支持的一种格式。开发者想实现自动化绘图的需求，Autodesk官方也是推荐你从DXF入手。    &lt;/p&gt;
+&lt;p&gt;而且DXF和DWG并非完全不可转换，&lt;a href=&quot;https://www.opendesign.com/cn/guestfiles/oda_file_converter&quot;&gt;ODAFileConverter&lt;/a&gt;是一个免费的，由ODA组织（偏官方性质的）推出的一个跨文件版本的DWG，DXF文件互转工具，而且&lt;strong&gt;支持命令行&lt;/strong&gt;形式的使用。&lt;br&gt;
+哪怕你最终生成的格式必须是DWG的格式，也可以使用上述软件间接地实现你的需求。&lt;/p&gt;
+&lt;p&gt;说人话：&lt;strong&gt;DXF和DWG，都是正经的受AutoCAD支持的格式。想实现程序自动化绘图，DWG你先别碰，老老实实先用DXF就行。&lt;/strong&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;dxf文件长啥样&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dxf%E6%96%87%E4%BB%B6%E9%95%BF%E5%95%A5%E6%A0%B7&quot; aria-label=&quot;dxf文件长啥样 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DXF文件长啥样&lt;/h3&gt;
+&lt;p&gt;打开CAD2020只画一个原点在(0,0)，半径为1的圆，保存为.dxf格式，然后用任意文本编辑器打开，你将会看到：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1015
+...
+...
+CIRCLE
+  5
+293
+330
+1F
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDSEC
+...
+...
+RTVSPropertyOp62
+ 70
+     1
+  0
+ENDSEC
+  0
+EOF&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;首先，你可以看到它是文本格式的，你可以直观的查看，编辑它；&lt;br&gt;
+其次，粗略的浏览下来，能感受到它是有一定格式的。
+下边，我们正式开始说说DXF的组成。  &lt;/p&gt;
+&lt;h4 id=&quot;整体&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%95%B4%E4%BD%93&quot; aria-label=&quot;整体 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;整体&lt;/h4&gt;
+&lt;p&gt;正如一篇文章有题目，章节标题，段落主题，段落内容一样，DXF文件内也是类似的树状结构。&lt;/p&gt;
+&lt;iframe id=&quot;embed_dom&quot; name=&quot;embed_dom&quot; frameborder=&quot;0&quot; style=&quot;display:block;width:525px; height:625px;&quot; src=&quot;https://www.processon.com/embed/62666fefe0b34d4baed871b5&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;\todo&lt;/p&gt;</content:encoded></item><item><title><![CDATA[荷塘月色]]></title><description><![CDATA[这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。]]></description><link>https://imamiao.github.io/foo/bar/he-tang-yue-se/</link><guid isPermaLink="false">https://imamiao.github.io/foo/bar/he-tang-yue-se/</guid><pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;作者：朱自清&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。&lt;/p&gt;
