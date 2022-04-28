@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[清风朗月]]></title><description><![CDATA[YM's Blog]]></description><link>https://my.b2a1.cn</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Apr 2022 06:46:02 GMT</lastBuildDate><item><title><![CDATA[用人话说说AutoCAD的DXF格式]]></title><description><![CDATA[DWG和DXF是AutoCAD最常用的两种数据保存格式，DWG是AutoCAD的私有格式，DXF是Autodesk公司开发的用于AutoCAD与其它软件之间进行CAD数据交换的CAD数据文件格式。DXF天生就是面向第三方开发者的，公开的文件格式，开发者想实现自动化绘图，从DXF入手无疑是最好的选择。]]></description><link>https://my.b2a1.cn/dxf-description/</link><guid isPermaLink="false">https://my.b2a1.cn/dxf-description/</guid><pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;什么是dxf格式&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BB%80%E4%B9%88%E6%98%AFdxf%E6%A0%BC%E5%BC%8F&quot; aria-label=&quot;什么是dxf格式 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;什么是DXF格式&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YMBlog]]></title><description><![CDATA[YM's Blog]]></description><link>https://my.b2a1.cn</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Apr 2022 10:14:57 GMT</lastBuildDate><item><title><![CDATA[用人话说说AutoCAD的DXF格式]]></title><description><![CDATA[DWG和DXF是AutoCAD最常用的两种数据保存格式，DWG是AutoCAD的私有格式，DXF是Autodesk公司开发的用于AutoCAD与其它软件之间进行CAD数据交换的CAD数据文件格式。DXF天生就是面向第三方开发者的，公开的文件格式，开发者想实现自动化绘图，从DXF入手无疑是最好的选择。]]></description><link>https://my.b2a1.cn/posts/dxf-description/</link><guid isPermaLink="false">https://my.b2a1.cn/posts/dxf-description/</guid><pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;什么是dxf格式&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BB%80%E4%B9%88%E6%98%AFdxf%E6%A0%BC%E5%BC%8F&quot; aria-label=&quot;什么是dxf格式 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;什么是DXF格式&lt;/h2&gt;
 &lt;p&gt;DXF是AutoCAD(Drawing Interchange Format或者Drawing Exchange Format) 绘图交换文件。DXF 是Autodesk（欧特克）公司开发的用于AutoCAD与其它软件之间进行CAD数据交换的CAD数据文件格式。   &lt;/p&gt;
 &lt;p&gt;说人话：&lt;strong&gt;DXF是一个专门开放给第三方开发者图形数据格式。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;为什么选择用dxf格式&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%94%A8dxf%E6%A0%BC%E5%BC%8F&quot; aria-label=&quot;为什么选择用dxf格式 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;为什么选择用DXF格式&lt;/h2&gt;
@@ -6,9 +6,9 @@
 DXF是Autodesk专门开放给第三方开发者的文件格式，也是受到AutoCAD直接支持的一种格式。开发者想实现自动化绘图的需求，Autodesk官方也是推荐你从DXF入手。    &lt;/p&gt;
 &lt;p&gt;而且DXF和DWG并非完全不可转换，&lt;a href=&quot;https://www.opendesign.com/cn/guestfiles/oda_file_converter&quot;&gt;ODAFileConverter&lt;/a&gt;是一个免费的，由ODA组织（偏官方性质的）推出的一个跨文件版本的DWG，DXF文件互转工具，而且&lt;strong&gt;支持命令行&lt;/strong&gt;形式的使用。&lt;br&gt;
 哪怕你最终生成的格式必须是DWG的格式，也可以使用上述软件间接地实现你的需求。&lt;/p&gt;
-&lt;p&gt;说人话：&lt;strong&gt;DXF和DWG，都是正经的受AutoCAD支持的格式。想实现程序自动化绘图，DWG你先别碰，老老实实先用DXF就行。&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;说人话：&lt;strong&gt;DXF和DWG，都是正经的受AutoCAD支持的格式。想实现程序自动化绘图，或者其他需求时，DWG你先别碰，从DXF下手吧。&lt;/strong&gt;  &lt;/p&gt;
 &lt;h2 id=&quot;dxf格式文件长啥样&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dxf%E6%A0%BC%E5%BC%8F%E6%96%87%E4%BB%B6%E9%95%BF%E5%95%A5%E6%A0%B7&quot; aria-label=&quot;dxf格式文件长啥样 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DXF格式文件长啥样&lt;/h2&gt;
-&lt;p&gt;打开AutoCAD 2020只画一个原点在(0,0)，半径为1的圆，保存为.dxf格式，然后用任意文本编辑器打开，你将会看到：&lt;/p&gt;
+&lt;p&gt;我们打开AutoCAD 2020在图纸中只画一个原点在(0,0)，半径为1的圆，保存为.dxf格式，然后用任意文本编辑器打开，你将会看到：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  0
 SECTION
   2
@@ -49,9 +49,8 @@ RTVSPropertyOp62
 ENDSEC
   0
 EOF&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;首先，你可以看到它是文本格式的，你可以直观的查看，编辑它；&lt;br&gt;
-其次，粗略的浏览下来，能感受到它是有一定格式的。  &lt;/p&gt;
-&lt;p&gt;下边，我们正式开始说说DXF的组成。  &lt;/p&gt;
+&lt;p&gt;首先，你可以看到它是能正常打开的文本格式，你可以直观的查看，编辑它；粗略的浏览下来，能感受到它是有一定格式的。  &lt;/p&gt;
+&lt;p&gt;下边我们正式开始看看DXF的组成。  &lt;/p&gt;
 &lt;h2 id=&quot;dxf的组成&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dxf%E7%9A%84%E7%BB%84%E6%88%90&quot; aria-label=&quot;dxf的组成 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DXF的组成&lt;/h2&gt;
 &lt;h3 id=&quot;dxf中的基本概念&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dxf%E4%B8%AD%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5&quot; aria-label=&quot;dxf中的基本概念 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DXF中的基本概念&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;DXF™ 格式是 AutoCAD ® 图形文件中包含的所有信息的一种带标记数据的表示方式。带标记数据是指文件中的每个数据元素前面都带有一个称为组码的整数。组码的值表明了随后的数据元素的类型。还指出了数据元素对于给定对象（或记录）类型的含义。&lt;/code&gt; ——&lt;a href=&quot;https://help.autodesk.com/view/OARX/2021/CHS/?guid=GUID-235B22E0-A567-4CF6-92D3-38A2306D73F3&quot;&gt;《DXF 参考手册》&lt;/a&gt;&lt;/p&gt;
@@ -76,71 +75,96 @@ AC1015    &amp;lt;- 数据元素，$ACADVER变量值为AC1015，AC1015则代表�
 &lt;p&gt;上边这个思维导图已经表述的很全面了，简单总结一下：  &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;DXF由6部分(段)组成（忽略THUMBNAILIMAGE段），分别是：HEADER段，OBJECTS段，ENTITIES段，BLOCKS段，TABLES段，CLASSES段；&lt;/li&gt;
-&lt;li&gt;点，线，圆等图像，都定义在ENTITIES段，需要重点关注。   &lt;/li&gt;
+&lt;li&gt;每一段的开始都会有 &lt;code class=&quot;language-text&quot;&gt;0  SECTION  2  XXXX&lt;/code&gt; 来标识下边是哪一段；&lt;/li&gt;
+&lt;li&gt;点，线，圆等图形数据，都定义在ENTITIES段，需要重点关注。   &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;既然ENTITIES段对于我们来说最重要，那么下边我们简单分析一下ENTITIES段的内容。&lt;/p&gt;
 &lt;h3 id=&quot;entities段简析&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#entities%E6%AE%B5%E7%AE%80%E6%9E%90&quot; aria-label=&quot;entities段简析 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ENTITIES段简析&lt;/h3&gt;
 &lt;p&gt;ENTITIES段包含了几乎所有图形对象，以一个CIRCLE（圆）和一个LINE（线）为例，我们来看一下ENTITIES的结构，以及图形对象是在ENTITIES段存在的。  &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
-0           &amp;lt;- 组码
-SECTION     &amp;lt;- 数据元素，段开始标识
-  2         &amp;lt;- 组码，段名称
-ENTITIES    &amp;lt;- 数据元素，当前段为ENTITIES段
------------ 上边这一部分是定义ENTITIES段
-  0         &amp;lt;- 组码
-CIRCLE      &amp;lt;- 数据元素，这是一个圆
-  5         &amp;lt;- 组码，句柄（handle），可以理解为一个ID，不能重复
-293         &amp;lt;- 数据元素，句柄值
-330         &amp;lt;- 组码，所有者 BLOCK_RECORD 对象的软指针 ID/句柄
-1F          &amp;lt;- 数据元素，软指针 ID
-100         &amp;lt;- 组码，子类标记 (AcDbEntity)
-AcDbEntity  &amp;lt;- 数据元素，固定为AcDbEntity
-  8         &amp;lt;- 组码，图层名
-0           &amp;lt;- 数据元素，图层名：0，代表在0图层（默认图层）上
-100         &amp;lt;- 组码，子类标记 (AcDbCircle)
-AcDbCircle  &amp;lt;- 数据元素，固定为AcDbCircle
- 10         &amp;lt;- 组码，中心点X 值
-0.0         &amp;lt;- 数据元素，X 值：0.0
- 20         &amp;lt;- 组码，中心点Y 值
-0.0         &amp;lt;- 数据元素，Y 值：0.0
- 30         &amp;lt;- 组码，中心点Z 值
-0.0         &amp;lt;- 数据元素，Z 值：0.0
- 40         &amp;lt;- 组码，半径
-1.0         &amp;lt;- 数据元素，半径为1
------------ 上边这一部分完成对CIRCLE（圆）的定义，对圆心(0，0，0)和半径(1)都进行了赋值
-0           &amp;lt;- 组码，
-LINE        &amp;lt;- 数据元素，这是一条线
-  5         &amp;lt;- 组码，句柄（handle），可以理解为一个ID，不能重复
-2CC         &amp;lt;- 数据元素，句柄值
-330         &amp;lt;- 组码，所有者 BLOCK_RECORD 对象的软指针 ID/句柄
-1F          &amp;lt;- 数据元素，软指针 ID
-100         &amp;lt;- 组码，子类标记 (AcDbEntity)
-AcDbEntity  &amp;lt;- 数据元素，固定为AcDbEntity
-  8         &amp;lt;- 组码，图层名
-0           &amp;lt;- 数据元素，图层名：0，代表在0图层（默认图层）上
-100         &amp;lt;- 组码，子类标记 (AcDbLine)
-AcDbLine    &amp;lt;- 数据元素，固定为AcDbLine
- 10         &amp;lt;- 组码，起点X
-3.0         &amp;lt;- 数据元素，起点X=3.0
- 20         &amp;lt;- 组码，起点Y
-0.0         &amp;lt;- 数据元素，起点Y=0.0
- 30         &amp;lt;- 组码，起点Z
-0.0         &amp;lt;- 数据元素，起点Z=0.0
- 11         &amp;lt;- 组码，端点X
-6.0         &amp;lt;- 数据元素，端点X=6.0
- 21         &amp;lt;- 组码，端点Y
-6.0         &amp;lt;- 数据元素，端点Y=6.0
- 31         &amp;lt;- 组码，端点Z
-0.0         &amp;lt;- 数据元素，端点Z=0.0
------------ 上边这一部分完成对LINE（线）的定义，完成起点(3,0,0)和端点(6,6,0)的赋值
-  0         &amp;lt;- 组码
-ENDSEC      &amp;lt;- 数据元素，段结束标志
------------ 段结束
-...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;                         ......
+|----------|-----------------------------------
+|          |                        0           &amp;lt;- 组码
+|          |段头，标志ENTITIES段     SECTION     &amp;lt;- 数据元素，段开始标识
+|          |       的开始              2         &amp;lt;- 组码，段名称
+|          |                        ENTITIES    &amp;lt;- 数据元素，当前段为ENTITIES段
+|          |----------|------------------------ 上边这一部分是定义ENTITIES段
+|          |          |                0         &amp;lt;- 组码
+|          |          |              CIRCLE      &amp;lt;- 数据元素，这是一个圆
+|          |          |                5         &amp;lt;- 组码，句柄（handle），可以理解为一个ID，不能重复
+|          |          |              293         &amp;lt;- 数据元素，句柄值
+|          |          |              330         &amp;lt;- 组码，所有者 BLOCK_RECORD 对象的软指针 ID/句柄
+|          |          |              1F          &amp;lt;- 数据元素，软指针 ID
+|          |          |              100         &amp;lt;- 组码，子类标记 (AcDbEntity)
+|          |          |CIRCLE        AcDbEntity  &amp;lt;- 数据元素，固定为AcDbEntity
+|          |          |  圆            8         &amp;lt;- 组码，图层名
+|          |          |              0           &amp;lt;- 数据元素，图层名：0，代表在0图层（默认图层）上
+|          |          |              100         &amp;lt;- 组码，子类标记 (AcDbCircle)
+|          |          |              AcDbCircle  &amp;lt;- 数据元素，固定为AcDbCircle
+|          |          |               10         &amp;lt;- 组码，中心点X 值
+|          |          |              0.0         &amp;lt;- 数据元素，X 值：0.0
+|          |          |               20         &amp;lt;- 组码，中心点Y 值
+|          |          |              0.0         &amp;lt;- 数据元素，Y 值：0.0
+|          |          |               30         &amp;lt;- 组码，中心点Z 值
+|          |          |              0.0         &amp;lt;- 数据元素，Z 值：0.0
+|          |          |               40         &amp;lt;- 组码，半径
+|ENTITIES段|          |              1.0         &amp;lt;- 数据元素，半径为1
+|  数据    | 图形数据  |-----------------------  上边这一部分完成对CIRCLE（圆）的定义，对圆心(0，0，0)和半径(1)都进行了赋值
+|          |          |             0           &amp;lt;- 组码，
+|          |          |             LINE        &amp;lt;- 数据元素，这是一条线
+|          |          |               5         &amp;lt;- 组码，句柄（handle），可以理解为一个ID，不能重复
+|          |          |             2CC         &amp;lt;- 数据元素，句柄值
+|          |          |             330         &amp;lt;- 组码，所有者 BLOCK_RECORD 对象的软指针 ID/句柄
+|          |          |             1F          &amp;lt;- 数据元素，软指针 ID
+|          |          |             100         &amp;lt;- 组码，子类标记 (AcDbEntity)
+|          |          |             AcDbEntity  &amp;lt;- 数据元素，固定为AcDbEntity
+|          |          |               8         &amp;lt;- 组码，图层名
+|          |          |  LINE       0           &amp;lt;- 数据元素，图层名：0，代表在0图层（默认图层）上
+|          |          |   线        100         &amp;lt;- 组码，子类标记 (AcDbLine)
+|          |          |             AcDbLine    &amp;lt;- 数据元素，固定为AcDbLine
+|          |          |              10         &amp;lt;- 组码，起点X
+|          |          |             3.0         &amp;lt;- 数据元素，起点X=3.0
+|          |          |              20         &amp;lt;- 组码，起点Y
+|          |          |             0.0         &amp;lt;- 数据元素，起点Y=0.0
+|          |          |              30         &amp;lt;- 组码，起点Z
+|          |          |             0.0         &amp;lt;- 数据元素，起点Z=0.0
+|          |          |              11         &amp;lt;- 组码，端点X
+|          |          |             6.0         &amp;lt;- 数据元素，端点X=6.0
+|          |          |              21         &amp;lt;- 组码，端点Y
+|          |          |             6.0         &amp;lt;- 数据元素，端点Y=6.0
+|          |          |              31         &amp;lt;- 组码，端点Z
+|          |          |             0.0         &amp;lt;- 数据元素，端点Z=0.0
+|          |----------|---------------------- 上边这一部分完成对LINE（线）的定义，完成起点(3,0,0)和端点(6,6,0)的赋值
+|          | 段尾，ENTITIES段        0         &amp;lt;- 组码
+|          |     结束               ENDSEC      &amp;lt;- 数据元素，段结束标志
+|----------|--------------------------------- 段结束
+                         ......&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这时候问题来了，为什么0下边就要跟CIRCLE，10就代表的圆心X呢？  &lt;/p&gt;
+&lt;p&gt;因为它就是这么规定的，如下图所示，100对应子类标记AcDbCircle，10，20，30分别对应圆心的X，Y，Z值。
+&lt;img src=&quot;https://tva4.sinaimg.cn/large/d87c1362ly1h1pjfoaotqj20w40m4jwu.jpg&quot; alt=&quot;image&quot;&gt;   &lt;/p&gt;
+&lt;p&gt;所有的组码对应的含义，以及下边所跟值的说明都可以在又臭又长的官方文档中找到答案：&lt;a href=&quot;https://help.autodesk.com/view/OARX/2021/CHS/?guid=GUID-235B22E0-A567-4CF6-92D3-38A2306D73F3&quot;&gt;《DXF 参考手册》&lt;/a&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;结语&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%BB%93%E8%AF%AD&quot; aria-label=&quot;结语 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;结语&lt;/h2&gt;
+&lt;p&gt;看到这里应该对DXF的整体结构有了大概的了解了，DXF格式虽然有点奇怪，但也有规律可循，接下来你就可以对着官方文档去实现自己的需求了。  &lt;/p&gt;
+&lt;p&gt;文档：  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DXF官方文档：&lt;a href=&quot;https://help.autodesk.com/view/OARX/2021/CHS/?guid=GUID-235B22E0-A567-4CF6-92D3-38A2306D73F3&quot;&gt;https://help.autodesk.com/view/OARX/2021/CHS/?guid=GUID-235B22E0-A567-4CF6-92D3-38A2306D73F3&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;ezdxf文档中DXF介绍部分：&lt;a href=&quot;https://ezdxf.readthedocs.io/en/stable/dxfinternals/dxftags.html&quot;&gt;https://ezdxf.readthedocs.io/en/stable/dxfinternals/dxftags.html&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CAD工具：  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web端AutoCAD（AutoCAD官方实现，很好用，免费）：&lt;a href=&quot;https://web.autocad.com/&quot;&gt;https://web.autocad.com/&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;ODAFileConverter（由ODA组织&lt;em&gt;[开放设计联盟，专门提供CAD相关的库，中望CAD底层就是基于它家的库实现的]&lt;/em&gt;实现的DXF-DWG转换工具，不同的文件版本之间进行转换，&lt;strong&gt;支持命令行操作，免费&lt;/strong&gt;）：&lt;a href=&quot;https://www.opendesign.com/cn/guestfiles/oda_file_converter&quot;&gt;https://www.opendesign.com/cn/guestfiles/oda_file_converter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;几个DXF读写库：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C#，netDxf:&lt;a href=&quot;https://github.com/haplokuon/netDxf&quot;&gt;https://github.com/haplokuon/netDxf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python，ezdxf:&lt;a href=&quot;https://github.com/mozman/ezdxf&quot;&gt;https://github.com/mozman/ezdxf&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;TS，dxf-parser:&lt;a href=&quot;https://github.com/gdsestimating/dxf-parser&quot;&gt;https://github.com/gdsestimating/dxf-parser&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;JS，skymakerolof/dxf:&lt;a href=&quot;https://github.com/skymakerolof/dxf&quot;&gt;https://github.com/skymakerolof/dxf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;未完待续&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[荷塘月色]]></title><description><![CDATA[这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。]]></description><link>https://my.b2a1.cn/he-tang-yue-se/</link><guid isPermaLink="false">https://my.b2a1.cn/he-tang-yue-se/</guid><pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;本文完&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[荷塘月色]]></title><description><![CDATA[这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。]]></description><link>https://my.b2a1.cn/posts/he-tang-yue-se/</link><guid isPermaLink="false">https://my.b2a1.cn/posts/he-tang-yue-se/</guid><pubDate>Tue, 07 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;作者：朱自清&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这几天心里颇不宁静。今晚在院子里坐着乘凉，忽然想起日日走过的荷塘，在这满月的光里，总该另有一番样子吧。月亮渐渐地升高了，墙外马路上孩子们的欢笑，已经听不见了；妻在屋里拍着闰儿，迷迷糊糊地哼着眠歌。我悄悄地披了大衫，带上门出去。&lt;/p&gt;
